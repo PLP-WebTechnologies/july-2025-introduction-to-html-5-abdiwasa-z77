@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Welcome to our homepage. Learn more about who we are and what we do." />
+  <meta name="keywords" content="homepage, web design, SEO, accessibility" />
+  <meta name="author" content="Your Name" />
+  <title>Welcome to Our Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header role="banner">
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Welcome to Our Website</h1>
+    <p>Your gateway to solutions that matter.</p>
+  </header>
+
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Us</h2>
+      <p>We are a creative team passionate about delivering innovative solutions for modern challenges.</p>
+    </section>
+
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services</h2>
+      <article>
+        <h3>Web Development</h3>
+        <p>Responsive, accessible, and SEO-friendly websites tailored to your needs.</p>
+      </article>
+      <article>
+        <h3>Design & Branding</h3>
+        <p>Crafting memorable visual identities that resonate with your audience.</p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required aria-required="true" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required aria-required="true" />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required aria-required="true"></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Abdiwasa All rights reserved.</p>
+  </footer>
+</body>
+</html>
